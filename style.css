@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+#main-section {
+    margin-top: 70px;
+}
+
+header {
+    background-color: #0b5540;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    width: 97%;
+    top: 0;
+    height: 50px;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff; /* Add this line to set the font color */
+    font-size: 24px; /* Add this line to set the font size */
+    text-align: center;
+}
+
+nav {
+    margin-left: auto;
+}
+
+
+nav .ulnav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav .ulnav .linav {
+    margin-left: 20px;
+}
+
+nav .ulnav .linav .anav {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#about {
+    background-color: #fff;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text {
+    
+}
+
+.about-image {
+    max-width: 300px;
+}
+
+
+#photo {
+    max-width: 200px;
+}
+
+#activities {
+    background-color: #f1f1f1;
+}
+
+#contact {
+    background-color: #175644;
+    color: #fff;
+}
+
+.activitylist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.a-activity {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-activity {
+    background-color: #0b5540;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    /* min-height: 1000%; */
+    padding: 2%;
+}
+
+.button-sub {
+    font-weight: bold;
+}
+
+.activitybutton {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    /* min-height: 10% */
+}
+
+.activity {
+    background-color: #ffffff;
+    flex: 1 1 500px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline: 1px solid #fff;
+}
+
+.activitysub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activityimage {
+    max-width: 35%;
+}
+
+.activity-name {
+    text-align: center;
+}
+
+footer {
+    background-color: #094b38;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
