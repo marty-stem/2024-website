@@ -15,7 +15,7 @@ header {
     padding: 20px;
     display: flex;
     align-items: center;
-    z-index: 1;
+    /* z-index: 1; */
     position: fixed;
     width: 97%;
     top: 0;
@@ -83,11 +83,6 @@ h2 {
     background-color: #f1f1f1;
 }
 
-#contact {
-    background-color: #175644;
-    color: #fff;
-}
-
 .activitylist {
     display: flex;
     flex-wrap: wrap;
@@ -140,6 +135,11 @@ h2 {
 
 .activityimage {
     max-width: 35%;
+    padding: 5px;
+    border-radius: 50%;
+    border-color: #175644;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .activity-name {
@@ -151,4 +151,52 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
+}
+
+#activity-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+html {
+    scroll-padding-top: 70px;
+}
+
+#profiles {
+    background-color: #175644;
+    color: #fff;
+}
+
+.profile-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    color: #000;
+    background-color: #ffffff;
+    flex: 1 1 500px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline: 1px solid #fff;
+    max-width: 47%;
+}
+
+.profile-name {
+    text-align: center;
+}
+
+.profile-image {
+    max-width: 35%;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+.profile-sub {
+    display: flex;
+    justify-content: space-between;
 }

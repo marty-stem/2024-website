@@ -8,6 +8,8 @@ const activity_name = data.name;
 
 window.onload = function () {
     console.log("Loading activity:", activity_name);
+    let activity_iframe = document.getElementById('activity-iframe');
+    activity_iframe.src = `./${activity_name}/${activity_name}.html`;
 }
 
 
